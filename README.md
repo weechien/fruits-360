@@ -62,6 +62,7 @@ Next, we will import and load the datasets into pytorch.<br />
 We will be splitting the existing test dataset into 50% validation and 50% test.
 ```markdown 
 # Dataset folders and loaders
+
 DATA_DIR = join(os.getcwd(), 'Fruit-Images-Dataset')
 TRAIN_DIR = join(DATA_DIR, 'Training')
 TEST_DIR = join(DATA_DIR, 'Test')
@@ -97,7 +98,8 @@ print('Number of classes:',len(train_dataset.classes))
 [print(f'{idx}： {cls}') for idx, cls in enumerate(train_dataset.classes)]
 ```
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/dataset_preview.JPG "Dataset preview")
-![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/classes.JPG "Dataset preview")
+<br />
+![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/classes.JPG "Dataset classes")
 <br />
 
 Let's take a peek at the individual training images.
