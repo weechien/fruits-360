@@ -10,17 +10,19 @@ Let’s cover this article briefly:
 <br />
 
 1. We will be using the [PyTorch](https://pytorch.org/) framework to train our model.
-2. We will also be using [Kaggle](http://kaggle.com/) to write our code and train the model using a GPU. You will require an account for Kaggle.
+2. We will also be using [Kaggle](http://kaggle.com/) to write our code and train the model using a GPU.<br />
+You will require an account for Kaggle.
 3. The dataset will be from the [Fruit-Images-Dataset](https://github.com/Horea94/Fruit-Images-Dataset).
     * Total number of images is 90,483.
     * Total number of training images is 67,692 (one fruit or vegetable per image).
     * Total number of testing images is 22,688 (one fruit or vegetable per image).
 4. You can get all the code and training steps from [Jovian](https://jovian.ml/weechien/assignment-5-fruits-360).
-5. I will only use function calls here so as to avoid cluttering the page. You may refer to the link above for the function definitions.
+5. I will only use function calls here so as to avoid cluttering the page.<br />
+You may refer to the link above for the function definitions.
 
 <br />
 We will be exploring the dataset to have a better understanding of it.
-<br />
+<br /><br />
 
 In the notebook, let's first clone the dataset from GitHub.
 ```markdown
