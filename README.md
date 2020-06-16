@@ -98,9 +98,9 @@ print('Number of classes:',len(train_dataset.classes))
 [print(f'{idx}： {cls}') for idx, cls in enumerate(train_dataset.classes)]
 ```
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/dataset_preview.JPG "Dataset preview")
-<br />
+<br /><br />
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/classes.JPG "Dataset classes")
-<br />
+<br /><br />
 
 Let's take a peek at the individual training images.
 ```markdown
