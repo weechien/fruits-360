@@ -207,8 +207,9 @@ Accuracy on test data: 98.46%
 
 ## Conclusion and closing thoughts
 The model accuracy on the test data was surprisingly better at 98% than the training and validation data. This suggests that the model is not overfitting to its training data.<br /><br />
-That concludes our short exploration on retraining an existing image classifier to predict fruit images.
-<br /><br />
+
 It's possible to further improve the model's accuracy by feeding it with more images via data augmentation. There is also room for improvement by tweaking the hyperparamters as it has not been tested exhaustively.
 <br /><br />
+
+That concludes our short exploration on retraining an existing image classifier to predict fruit images.
 I hope you have learned something from this article, thanks for reading!
