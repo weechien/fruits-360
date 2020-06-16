@@ -184,6 +184,17 @@ plot_chart('Train-Validation Accuracy', ['train', 'validation'], [train_loss, va
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/train_val_loss.JPG "Train-val loss")
 <br /><br />
 
+We will sample the model on some of the testing data.
+```markdown
+# Prediction on sample testing data
+
+images, labels = next(iter(test_dataloader))
+
+predict_and_plot(images, labels)
+```
+![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/testing_images.JPG "Testing images")
+<br /><br />
+
 Finally, let's run the model on the testing dataset.
 ```markdown
 # Prediction on testing data
@@ -192,9 +203,10 @@ test_preds = predict_dl(test_dataloader, model)
 print(f'Accuracy on test data: {test_preds:.2%}')
 ```
 Accuracy on test data: 98.46%
-<br />
+<br /><br />
 
 ## Conclusion and closing thoughts
+The model accuracy on the test data was surprisingly better at 98% than the training and validation data. This suggests that the model is not overfitting to its training data.<br /><br />
 That concludes our short exploration on retraining an existing image classifier to predict fruit images.
 <br /><br />
 It's possible to further improve the model's accuracy by feeding it with more images via data augmentation. There is also room for improvement by tweaking the hyperparamters as it has not been tested exhaustively.
