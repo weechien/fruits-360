@@ -5,7 +5,9 @@
 <br />
 Today, we will explore on an existing image classifier - the Resnet18 model, and try to apply transfer learning to classify 131 types of fruits and vegetables.
 
+<br />
 Let’s cover this article briefly:
+<br />
 
 1. We will be using the [PyTorch](https://pytorch.org/) framework to train our model.
 2. We will also be using [Kaggle](http://kaggle.com/) to write our code and train the model using a GPU. You will require an account for Kaggle.
@@ -16,16 +18,16 @@ Let’s cover this article briefly:
 4. You can get all the code and training steps from [Jovian](https://jovian.ml/weechien/assignment-5-fruits-360).
 5. I will only use function calls here so as to avoid cluttering the page. You may refer to the link above for the function definitions.
 
-
+<br />
 We will be exploring the dataset to have a better understanding of it.
-
+< br/>
 
 In the notebook, let's first clone the dataset from GitHub.
 ```markdown
 !git clone https://github.com/Horea94/Fruit-Images-Dataset
 ```
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/clone.JPG "Clone from GitHub")
-
+<br />
 
 Import all the required libraries.
 ```markdown
@@ -43,7 +45,7 @@ from torch.nn import functional as F
 from torchvision.datasets import ImageFolder
 from torch.utils.data import Subset, DataLoader, random_split
 ```
-
+<br />
 
 Let's also check the type of device we are running.
 Make sure to enable GPU on Kaggle.
@@ -52,7 +54,7 @@ device = get_default_device()
 print(device)
 ```
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/device.JPG "Device type")
-
+<br />
 
 Next, we will import and load the datasets into pytorch.
 We will be splitting the existing test dataset into 50% validation and 50% test.
@@ -80,8 +82,7 @@ train_dataloader = DeviceDataLoader(train_dataloader, device)
 validation_dataloader = DeviceDataLoader(validation_dataloader, device)
 test_dataloader = DeviceDataLoader(test_dataloader, device)
 ```
-
-
+<br />
 
 The training dataset overview is shown below.
 ```markdown
@@ -95,7 +96,7 @@ print('Number of classes:',len(train_dataset.classes))
 ```
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/dataset_preview.JPG "Dataset preview")
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/classes.JPG "Dataset preview")
-
+<br />
 
 Let's take a peek at the individual training images
 ```markdown
