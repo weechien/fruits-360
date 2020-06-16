@@ -5,9 +5,9 @@
 <br />
 Today, we will explore on an existing image classifier - the Resnet18 model, and try to apply transfer learning to classify 131 types of fruits and vegetables.
 
-<br />
+<br /><br />
 Let’s cover this article briefly:
-<br />
+<br /><br />
 
 1. We will be using the [PyTorch](https://pytorch.org/) framework to train our model.
 2. We will also be using [Kaggle](http://kaggle.com/) to write our code and train the model using a GPU. You will require an account for Kaggle.
