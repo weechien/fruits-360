@@ -102,7 +102,7 @@ print('Number of classes:',len(train_dataset.classes))
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/classes.JPG "Dataset classes")
 <br /><br />
 
-Let's take a peek at the individual training images.
+Let's take a peek at some of the training images.
 ```markdown
 # Information on a single data
 
