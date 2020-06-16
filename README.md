@@ -5,7 +5,7 @@
 <br />
 Today, we will explore on an existing image classifier - the Resnet18 model, and try to apply transfer learning to classify 131 types of fruits and vegetables.
 
-<br />
+<br /><br />
 Let’s cover this article briefly:
 <br />
 
