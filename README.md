@@ -195,7 +195,7 @@ predict_and_plot(images, labels)
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/testing_images.JPG "Testing images")
 <br /><br />
 
-Finally, let's run the model on the testing dataset.
+Finally, let's run the model on the entire testing dataset.
 ```markdown
 # Prediction on testing data
 
