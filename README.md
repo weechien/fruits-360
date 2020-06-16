@@ -2,7 +2,7 @@
 
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/fruits.jpg "Cover photo")
 
-
+<br />
 Today, we will explore on an existing image classifier - the Resnet18 model, and try to apply transfer learning to classify 131 types of fruits and vegetables.
 
 Let’s cover this article briefly:
