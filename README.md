@@ -113,7 +113,7 @@ print('Image shape:', images[0].shape)
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/training_images.JPG "Training images")
 <br />
 
-Initialize the model, setup the hyperparameters, then start training
+Setup the hyperparameters, initialize the model, then start training
 ```markdown
 # Set hyperparams, initialize model, then start training
 
