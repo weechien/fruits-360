@@ -184,7 +184,7 @@ plot_chart('Train-Validation Accuracy', ['train', 'validation'], [train_loss, va
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/train_val_loss.JPG "Train-val loss")
 <br /><br />
 
-We will sample the model on some of the testing data.
+We will sample some of the testing data on the model.
 ```markdown
 # Prediction on sample testing data
 
@@ -195,7 +195,7 @@ predict_and_plot(images, labels)
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/testing_images.JPG "Testing images")
 <br /><br />
 
-Finally, let's run the model on the entire testing dataset.
+Finally, let's run the entire testing dataset on the model.
 ```markdown
 # Prediction on testing data
 
