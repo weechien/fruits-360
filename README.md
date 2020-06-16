@@ -49,7 +49,7 @@ from torch.utils.data import Subset, DataLoader, random_split
 ```
 <br />
 
-Let's also check the type of device we are running.
+Let's also check the type of device we are running.<br />
 Make sure to enable GPU on Kaggle.
 ```markdown
 device = get_default_device()
@@ -58,7 +58,7 @@ print(device)
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/device.JPG "Device type")
 <br />
 
-Next, we will import and load the datasets into pytorch.
+Next, we will import and load the datasets into pytorch.<br />
 We will be splitting the existing test dataset into 50% validation and 50% test.
 ```markdown 
 # Dataset folders and loaders
@@ -100,7 +100,7 @@ print('Number of classes:',len(train_dataset.classes))
 ![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/classes.JPG "Dataset preview")
 <br />
 
-Let's take a peek at the individual training images
+Let's take a peek at the individual training images.
 ```markdown
 # Information on a single data
 
