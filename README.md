@@ -19,7 +19,7 @@ In the notebook, let's first clone the dataset from GitHub.
 ```markdown
 !git clone https://github.com/Horea94/Fruit-Images-Dataset
 ```
-![alt text](https://github.com/weechien/fruits-360/blob/master/clone.JPG "Clone from GitHub")
+![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/clone.JPG "Clone from GitHub")
 
 
 Import all the required libraries.
@@ -45,7 +45,7 @@ Make sure to enable GPU on Kaggle.
 device = get_default_device()
 print(device)
 ```
-![alt text](https://github.com/weechien/fruits-360/blob/master/device.JPG "Device type")
+![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/device.JPG "Device type")
 
 
 Next, we will import and load the datasets into pytorch.
@@ -86,7 +86,7 @@ print('Number of testing dataset:', len(test_dataset))
 print('Number of classes:',len(train_dataset.classes))
 [print(f'{idx}： {cls}') for idx, cls in enumerate(train_dataset.classes)]
 ```
-![alt text](https://github.com/weechien/fruits-360/blob/master/dataset_preview.JPG "Dataset preview")
+![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/dataset_preview.JPG "Dataset preview")
 
 The classes shown is rather long, so we will have to scroll down to view the entire list.
 Here is the full list of classes:
@@ -127,48 +127,5 @@ images, labels = next(iter(train_dataloader))
 plot_img(images, labels)
 print('Image shape:', images[0].shape)
 ```
-![alt text](https://github.com/weechien/fruits-360/blob/master/training_images.JPG "Training images")
+![alt text](https://raw.githubusercontent.com/weechien/fruits-360/master/training_images.JPG "Training images")
 
-
-
-
-
-
-
-
-
-You can use the [editor on GitHub](https://github.com/weechien/fruits-360/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/weechien/fruits-360/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
