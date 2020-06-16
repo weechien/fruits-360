@@ -5,7 +5,7 @@
 <br />
 Today, we will explore on an existing image classifier - the Resnet18 model, and try to apply transfer learning to classify 131 types of fruits and vegetables.
 
-<br /><br />
+<br />
 Let’s cover this article briefly:
 <br />
 
@@ -104,7 +104,7 @@ print('Number of classes:',len(train_dataset.classes))
 
 Let's take a peek at some of the training images.
 ```markdown
-# Information on a single data
+# Information on a single image
 
 images, labels = next(iter(train_dataloader))
 plot_img(images, labels)
@@ -192,6 +192,11 @@ test_preds = predict_dl(test_dataloader, model)
 print(f'Accuracy on test data: {test_preds:.2%}')
 ```
 Accuracy on test data: 98.46%
+<br />
 
 ## Conclusion and closing thoughts
-test
+That concludes our short exploration on retraining an existing image classifier to predict fruit images.
+<br /><br />
+It's possible to further improve the model's accuracy by feeding it with more images via data augmentation. There is also room for improvement by tweaking the hyperparamters as it has not been tested exhaustively.
+<br /><br />
+I hope you have learned something from this article, thanks for reading!
