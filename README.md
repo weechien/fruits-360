@@ -128,8 +128,8 @@ model = to_device(FruitModel(), device)
 history = fit(num_epochs, learning_rate, model, train_dataloader, validation_dataloader, opt_func)
 ```
 <br />
-We are training our resnet-18 model for 25 epochs with a batch size of 32, and feeding it with the fruits and vegetables images.<br />
-As the epochs progresses, the loss gradually goes down and accuracy goes up.<br />
+We are training our resnet-18 model for 25 epochs with a batch size of 32, and feeding it with the fruits and vegetables images.
+As the epochs progresses, the loss gradually goes down and accuracy goes up.
 Validation accuracy remains stable, which indicates that the model has yet to overfit over the 25 epochs.<br /><br />
 
 <em>Epoch [0], train_loss: 4.6832, val_loss: 4.5394, train_acc: 25.00%, val_acc: 45.75%</em><br />
