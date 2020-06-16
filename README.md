@@ -20,7 +20,7 @@ Let’s cover this article briefly:
 
 <br />
 We will be exploring the dataset to have a better understanding of it.
-< br/>
+<br />
 
 In the notebook, let's first clone the dataset from GitHub.
 ```markdown
